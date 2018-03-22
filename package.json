@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "./scripts/build",
+    "run": "./scripts/run",
     "lint": "./scripts/lint",
     "test": "./scripts/test",
     "watch": "./scripts/watch"
@@ -21,5 +22,9 @@
     "eslint-plugin-jest": "^21.15.0",
     "eslint-plugin-prettier": "^2.6.0",
     "prettier": "^1.11.1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
